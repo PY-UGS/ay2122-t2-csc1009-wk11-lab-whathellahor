@@ -32,5 +32,5 @@ class ClockTime:
 userHours = input("Enter Hours: ")                          # Take in user input for hours
 userMinutes = input("Enter Minutes: ")                      # Take in user input for minutes
 userSeconds = input("Enter Seconds: ")                      # Take in user input for seconds
-clockTime = ClockTime(userHours, userMinutes, userSeconds)  # Pass the values into function setTime
+clockTime = ClockTime(userHours, userMinutes, userSeconds)  # Pass the values into default constructor
 clockTime.showTime()                                        # Print the time as defined by the user
